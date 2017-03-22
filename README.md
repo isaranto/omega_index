@@ -38,7 +38,7 @@ algorithm examines the number of co occurrence of nodes in clusters rather than 
 correspondence problem.
 
 ```python
-import omega_index
+from omega_index import Omega
 
 omega = omega_index.Omega(communities, ground_truth_communities)
 print omega.omega_score

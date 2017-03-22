@@ -7,7 +7,7 @@ setup(
   author = 'Ilias Sarantopoulos',
   author_email = 'sarantopoulos.ilias@gmail.com',
   url = 'https://github.com/isaranto/omega-index', # use the URL to the github repo
-  download_url = 'https://github.com/isaranto/omega-index/archive/master.zip', # I'll explain this in a second
+  download_url = 'https://github.com/isaranto/omega_index/archive/master.zip', # I'll explain this in a second
   keywords = ['evaluation', 'clustering', 'community-detection'], # arbitrary keywords
   classifiers = [],
 )

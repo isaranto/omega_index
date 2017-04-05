@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'omega_index',
   packages = ['omega_index'], # this must be the same as the name above
-  version = '0.1',
+  version = '0.2',
   description = 'Omega Index for evaluation of overlapping community structure',
   author = 'Ilias Sarantopoulos',
   author_email = 'sarantopoulos.ilias@gmail.com',

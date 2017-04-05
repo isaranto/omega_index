@@ -75,4 +75,7 @@ class Omega:
         return exp
 
     def calc_omega(self, obs, exp):
-        return (obs-exp)/(1-exp)
+        if exp == obs == 1:
+            return 1.0
+        else:
+            return (obs-exp)/(1-exp)

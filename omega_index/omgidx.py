@@ -84,16 +84,3 @@ class Omega(object):
             return 1.0
         else:
             return (obs-exp)/(1-exp)
-
-
-communities = {
-    "com1": ["item1", "item2"],
-    "com2": ["item3", "item4"],
-    "com3": ["item5", "item6", "item9"],
-    "com4": ["item7", "item8"],
-    "com5": ["item9", "item10", "item4"],
-    "com6": ["item11", "item12"],
-    "com7": ["item13", "item14"]
-}
-omega = Omega(communities, communities)
-print(omega.omega_score)

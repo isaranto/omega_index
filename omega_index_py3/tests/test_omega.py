@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from omega_index import Omega
+from omega_index_py3 import Omega
 import unittest
 
 

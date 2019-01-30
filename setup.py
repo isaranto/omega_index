@@ -1,13 +1,14 @@
+import setuptools
 from distutils.core import setup
+
 setup(
-  name='omega_index',
-  packages=['omega_index'],  # this must be the same as the name above
+  name='omega_index_py3',
+  packages=['omega_index_py3'],  # this must be the same as the name above
   version='0.3',
   description='Omega Index for evaluation of overlapping community structure',
-  author ='Ilias Sarantopoulos',
-  author_email ='sarantopoulos.ilias@gmail.com',
-  url='https://github.com/isaranto/omega-index',  # use the URL to the github repo
-  download_url='https://github.com/isaranto/omega_index/archive/master.zip',  # I'll explain this in a second
+  author ='Giulio Rossetti',
+  author_email ='giulio.rossetti@gmail.com',
+  url='https://github.com/GiulioRossetti/omega_index_py3',  # use the URL to the github repo
   keywords=['evaluation', 'clustering', 'community-detection'],  # arbitrary keywords
   classifiers=[
     # How mature is this project? Common values are

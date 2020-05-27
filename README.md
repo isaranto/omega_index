@@ -43,6 +43,6 @@ correspondence problem.
 import omega_index
 
 omega = omega_index.Omega(communities, ground_truth_communities)
-print omega.omega_score
+print(omega.omega_score)
 
 ```

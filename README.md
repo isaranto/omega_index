@@ -16,7 +16,7 @@ or, if you prefer a local user installation:
 
     $ pip install --user omega_index
     
-And use Python 2.7.14, [download Here!](https://www.python.org/downloads/)
+You can use Python 2.7 or 3.6, [download Here!](https://www.python.org/downloads/)
 
 ## Usage
 

@@ -1,8 +1,3 @@
-[![pyversions](https://img.shields.io/pypi/pyversions/omega_index.svg)](https://badge.fury.io/py/omega_index)
-[![Updates](https://pyup.io/repos/github/isaranto/omega_index/shield.svg)](https://pyup.io/repos/github/isaranto/omega_index/)
-[![PyPI version](https://badge.fury.io/py/omega_index.svg)](https://badge.fury.io/py/omega_index)
-
-
 # omega_index
 Omega Index for evaluation of overlapping community structure
 
@@ -21,7 +16,6 @@ or, if you prefer a local user installation:
 
     $ pip install --user omega_index
     
-
 You can use Python 2.7 or 3.6, [download Here!](https://www.python.org/downloads/)
 
 ## Usage
@@ -46,11 +40,9 @@ algorithm examines the number of co occurrence of nodes in clusters rather than 
 correspondence problem.
 
 ```python
-from omega_index import Omega
+import omega_index
 
-
-omega = Omega(communities, ground_truth_communities)
-
+omega = omega_index.Omega(communities, ground_truth_communities)
 print(omega.omega_score)
 
 ```

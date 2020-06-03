@@ -21,6 +21,9 @@ or, if you prefer a local user installation:
 
     $ pip install --user omega_index
     
+
+You can use Python 2.7 or 3.6, [download Here!](https://www.python.org/downloads/)
+
 ## Usage
 
 To evaluate a specific clustering output **ground-truth data** .
@@ -45,7 +48,9 @@ correspondence problem.
 ```python
 from omega_index import Omega
 
+
 omega = Omega(communities, ground_truth_communities)
+
 print(omega.omega_score)
 
 ```

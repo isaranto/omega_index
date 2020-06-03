@@ -1,0 +1,1 @@
+from .omgidx import Omega

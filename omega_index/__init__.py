@@ -1,1 +1,1 @@
-from Omega import Omega
+from .Omega import Omega

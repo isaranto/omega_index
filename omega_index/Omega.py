@@ -7,8 +7,8 @@ class Omega:
     def __init__(self, comms1, comms2):
         self.nodes1 = self.get_node_assignment(comms1)
         self.nodes2 = self.get_node_assignment(comms2)
-        self.nodes = list(set().union([node for i, com in comms2.iteritems() for node in com],
-                                      [node for i, com in comms1.iteritems() for node in com]))
+        self.nodes = list(set().union([node for i, com in comms2.items() for node in com],
+                                      [node for i, com in comms1.items() for node in com]))
         J, K, N, obs, tuples1, tuples2 = self.observed()
         exp = self.expected(J, K, N, tuples1, tuples2)
         self.omega_score = self.calc_omega(obs, exp)
@@ -20,7 +20,7 @@ class Omega:
         :return:
         """
         nodes = {}
-        for i, com in comms.iteritems():
+        for i, com in comms.items():
             for node in com:
                 try:
                     nodes[node].append(i)
@@ -59,7 +59,7 @@ class Omega:
             K = n if n > K else K
         obs = 0
         A = {j: 0 for j in range(min(J, K)+1)}
-        for (u, v), n in tuples1.iteritems():
+        for (u, v), n in tuples1.items():
             try:
                 if n == tuples2[(u, v)]:
                     A[n] += 1
